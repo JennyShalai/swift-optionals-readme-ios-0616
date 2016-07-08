@@ -3,7 +3,7 @@ petName = "Scooter 🐢"
 print(petName)
 
 if petName != nil {
-    print("My friend's pet is \(petName)")
+    print("My friend's pet is \(petName!)")
 } else {
     print("My friend doesn't have a pet 😞")
 }
